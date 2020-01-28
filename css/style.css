@@ -1,0 +1,99 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header */
+header{
+  background-color:#35424a;
+  color:#fff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#f54242 3px solid;
+}
+
+header a{
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+  padding-bottom:20px;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px
+}
+
+header .highlight, header .current a{
+  color:#f54242;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#bf0000;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:595px;
+  text-align:center;
+  color:#fff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px
+}
+
+#aha {
+  float:right;
+  margin-top:15px;
+}
+
+footer{
+  padding:5px;
+  margin-top:267px;
+  color:#fff;
+  background-color:#f54242;
+  text-align:center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
